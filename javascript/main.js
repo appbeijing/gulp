@@ -1,0 +1,1 @@
+var app=document.querySelector("#app"),timer;app.style.cssText="position:absolute; top:0;left:0;margin:0",timer=setInterval(function(){var e=window.getComputedStyle(app,null),t=parseInt(e.top);++t>100&&clearInterval(timer),app.style.top=t+"px",app.style.left=t+"px"},30),app.addEventListener("mouseover",function(){clearInterval(timer)},!1);

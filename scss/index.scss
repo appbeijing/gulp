@@ -1,0 +1,15 @@
+$side : left;
+$deepred : green;
+
+#app{
+	background: $deepred;
+	width: 100px+50px;
+	height:100px;
+	margin-left: 100px;
+	margin-right: 10px;
+	border-radius: 10px;
+	border-width: 10px;
+	border-color: orange;
+	border-style: solid;
+	transform: scale(.5);
+}
